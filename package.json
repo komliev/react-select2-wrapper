@@ -11,9 +11,7 @@
   "scripts": {
     "start": "cd examples && node server.js",
     "watch": "cd examples && webpack --watch",
-    "build": "cd examples && webpack -p",
-    "compile": "babel-cli -d lib/ src/",
-    "prepublish": "npm run compile"
+    "build": "cd examples && webpack -p"
   },
   "repository": {
     "type": "git",
