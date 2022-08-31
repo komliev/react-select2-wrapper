@@ -12,7 +12,7 @@
     "start": "cd examples && node server.js",
     "watch": "cd examples && webpack --watch",
     "build": "cd examples && webpack -p",
-    "compile": "babel -d lib/ src/",
+    "compile": "babel-cli -d lib/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
